@@ -1,0 +1,625 @@
+TGC Test
+v7
+r0
+t325734588.060800
+cCheck dependencies
+cProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Info.plist "GCTest/GC Test-Info.plist"
+cCopyStringsFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj/InfoPlist.strings GCTest/English.lproj/InfoPlist.strings
+cCompileXIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GC_TestAppDelegate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GC_TestAppDelegate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GC_TestAppDelegate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest" normal x86_64
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest" normal i386
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest" normal ppc
+cCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app.dSYM /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest
+cTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CDDF46F00000000000000EE
+t1289614447
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreFindPanelController.h
+c0000000041DCE1CB00000000000002D0
+t1104994763
+s720
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreFindResultWindowController.h
+c000000004B91FC00000000000000049E
+t1267858432
+s1182
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreTextFindResult.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreTextFindProgressSheet.h
+c000000004B9253BF0000000000000886
+t1267880895
+s2182
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindBranch.h
+c0000000041DCE1BE00000000000003B0
+t1104994750
+s944
+i<OgreKit/OgreTextFindComponent.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindComponent.h
+c0000000041DCE1BE0000000000000758
+t1104994750
+s1880
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindComponentEnumerator.h
+c000000004B92413F0000000000000329
+t1267876159
+s809
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindLeaf.h
+c0000000041DCE1BF0000000000000608
+t1104994751
+s1544
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindReverseComponentEnumerator.h
+c0000000041DCE1BF00000000000001CB
+t1104994751
+s459
+i<OgreKit/OgreTextFindComponentEnumerator.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreFindResultBranch.h
+c0000000041DCE1C40000000000000312
+t1104994756
+s786
+i<OgreKit/OgreTextFindBranch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreFindResultLeaf.h
+c0000000041DCE1C500000000000002D4
+t1104994757
+s724
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreTextFindResult.h
+c000000004B9253B20000000000000E4C
+t1267880882
+s3660
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreFindResultLeaf.h>
+i<OgreKit/OgreFindResultBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindThread.h
+c000000004B9254A80000000000001119
+t1267881128
+s4377
+i<Cocoa/Cocoa.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OgreTextFindProgressSheet.h>
+i<OgreKit/OgreTextFindResult.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindThreads/OgreTextFindProgressDelegate.h
+c000000004B927ED700000000000003A6
+t1267891927
+s934
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFinder.h
+c0000000042C7A79800000000000017FB
+t1120380824
+s6139
+i<Cocoa/Cocoa.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreOutlineColumn.h
+c0000000041DCE1CA0000000000000258
+t1104994762
+s600
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreOutlineView.h
+c0000000041DCE1CA0000000000000312
+t1104994762
+s786
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTableColumn.h
+c0000000041DCE1C90000000000000288
+t1104994761
+s648
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTableView.h
+c0000000041DCE1C900000000000002F8
+t1104994761
+s760
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTextView.h
+c0000000041DCE1C9000000000000026B
+t1104994761
+s619
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreView.h
+c0000000041DCE1C900000000000001F6
+t1104994761
+s502
+i<AppKit/AppKit.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindLeaf.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/InfoPlist.strings
+c000000004B927CA4000000000000002D
+t1267891364
+s45
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/MainMenu.xib
+c000000004B927CA4000000000002BB6B
+t1267891364
+s179051
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.h
+c000000004B927F8300000000000001E9
+t1267892099
+s489
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m
+c000000004B92860D000000000000046A
+t1267893773
+s1130
+i"GC_TestAppDelegate.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m
+c000000004B927F3A000000000000018F
+t1267892026
+s399
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.h
+c0000000041DCE1BB0000000000000C27
+t1104994747
+s3111
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableString.h
+c0000000041DCE1BA0000000000000472
+t1104994746
+s1138
+i<Foundation/Foundation.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.h
+c000000004B92877F0000000000005C43
+t1267894143
+s23619
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.h
+c0000000041DCE1B70000000000000BC3
+t1104994743
+s3011
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.h
+c0000000041DCE1B600000000000004F6
+t1104994742
+s1270
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.h
+c0000000041DCE1B90000000000000561
+t1104994745
+s1377
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h
+c0000000041DCE1B700000000000022DE
+t1104994743
+s8926
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.h
+c0000000041DCE1B80000000000000E00
+t1104994744
+s3584
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.h
+c0000000041DCE1B9000000000000024B
+t1104994745
+s587
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OgreKit.h
+c000000004B9282E50000000000000698
+t1267892965
+s1688
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGRegularExpressionFormatter.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/NSString_OgreKitAdditions.h>
+i<OgreKit/OGString.h>
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreTextFindThread.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindComponentEnumerator.h>
+i<OgreKit/OgreTextFindReverseComponentEnumerator.h>
+i<OgreKit/OgreTextFindResult.h>
+i<OgreKit/OgreFindResultLeaf.h>
+i<OgreKit/OgreFindResultBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+i<OgreKit/OgreTextView.h>
+i<OgreKit/OgreTableView.h>
+i<OgreKit/OgreTableColumn.h>
+i<OgreKit/OgreOutlineView.h>
+i<OgreKit/OgreOutlineColumn.h>
+i<OgreKit/OgreTextFindProgressSheet.h>
+i<OgreKit/OgreFindResultWindowController.h>
+i<OgreKit/OgreFindPanelController.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/oniguruma.h
+c000000004B4830330000000000008E0B
+t1263022131
+s36363
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest
+t1304041787
+s18192
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest.LinkFileList
+c000000004DBA193500000000000000F0
+t1304041781
+s240
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GC_TestAppDelegate.o
+t1304041787
+s21516
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/main.o
+t1304041787
+s4872
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest
+t1304041787
+s17840
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest.LinkFileList
+c000000004DBA193500000000000000EE
+t1304041781
+s238
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GC_TestAppDelegate.o
+t1304041787
+s21792
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/main.o
+t1304041787
+s4904
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest
+t1304041787
+s14760
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest.LinkFileList
+c000000004DBA193500000000000000F4
+t1304041781
+s244
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GC_TestAppDelegate.o
+t1304041787
+s28468
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/main.o
+t1304041787
+s5072
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app
+t1304041788
+s102
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app.dSYM
+t1304041787
+s102
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Info.plist
+t1304041781
+s833
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest
+t1304041787
+s58800
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/PkgInfo
+t1304041781
+s8
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1304041781
+s92
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj/MainMenu.nib
+t1304041781
+s34378
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework/OgreKit
+c000000004DBA1923000000000021BCE8
+t1304041763
+s2211048
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h.gch
+t1304041786
+s54789136
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h.gch
+t1304041787
+s52060976
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h.gch
+t1304041786
+s52184048
+
+NGCTest/GC Test-Info.plist
+c000000004B927C20000000000000037F
+t1267891232
+s895
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325734581#325734581#0(0"0(0#1#0"8594712192#0"0#
+
+CCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GC_TestAppDelegate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734587.127245
+e325734587.425180
+r1
+xCompileC
+xbuild/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GC_TestAppDelegate.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m325734587#325734587#0(0"0(0#0#71"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m8611277600#1534"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GC_TestAppDelegate.o"0#
+
+CCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734587.128196
+e325734587.401897
+r1
+xCompileC
+xbuild/OgreKit.build/Release/GC Test.build/Objects-normal/i386/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m325734587#325734587#0(0"0(0#0#57"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m8610344768#1506"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GC_TestAppDelegate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s325734587.359803
+e325734587.646860
+r1
+xCompileC
+xbuild/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GC_TestAppDelegate.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m325734587#325734587#0(0"0(0#0#71"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m8611500544#1541"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GC_TestAppDelegate.o"0#
+
+CCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s325734587.402040
+e325734587.627072
+r1
+xCompileC
+xbuild/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m325734587#325734587#0(0"0(0#0#57"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m8610594944#1513"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/main.o"0#
+
+CCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GC_TestAppDelegate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734587.092367
+e325734587.403472
+r1
+xCompileC
+xbuild/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GC_TestAppDelegate.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m325734587#325734587#0(0"0(0#0#71"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m8613839008#1540"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC_TestAppDelegate.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GC_TestAppDelegate.o"0#
+
+CCompileC "build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734587.126317
+e325734587.359632
+r1
+xCompileC
+xbuild/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m325734587#325734587#0(0"0(0#0#57"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m8612160256#1512"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/MainMenu.xib
+s325734581.372939
+e325734581.846063
+r1
+xCompileXIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/MainMenu.xib
+lSLF07#2@44"CompileXIB GCTest/English.lproj/MainMenu.xib325734581#325734581#0(0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/MainMenu.xib8612215168#387"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj/MainMenu.nib /Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj/InfoPlist.strings GCTest/English.lproj/InfoPlist.strings
+s325734581.372068
+e325734581.556473
+r1
+xCopyStringsFile
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj/InfoPlist.strings
+xGCTest/English.lproj/InfoPlist.strings
+lSLF07#2@43"Copy GCTest/English.lproj/InfoPlist.strings325734581#325734581#0(0"0(0#0#82"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/English.lproj/InfoPlist.strings8612931584#383"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 GCTest/English.lproj/InfoPlist.strings --outdir /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest normal "x86_64 i386 ppc"
+s325734587.968385
+e325734587.986161
+r1
+xCreateUniversalBinary
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@93"CreateUniversalBinary build/Release/GCTest.app/Contents/MacOS/GCTest normal "x86_64 i386 ppc"325734587#325734587#0(0"0(0#0#59"/Users/koch/texshop2.41-64/3rdparty/OgreKit/x86_64 i386 ppc8595942336#522"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /usr/bin/lipo -create "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest" "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest" "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest" -output /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest0#
+
+CGenerateDSYMFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app.dSYM /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest
+s325734587.986223
+e325734588.045945
+r1
+xGenerateDSYMFile
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app.dSYM
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest
+lSLF07#2@93"GenerateDSYMFile build/Release/GCTest.app.dSYM build/Release/GCTest.app/Contents/MacOS/GCTest325734587#325734588#0(0"0(0#0#90"/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest8595108608#251"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/dsymutil /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/MacOS/GCTest -o /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app.dSYM0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest" normal i386
+s325734587.425284
+e325734587.518736
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest
+xnormal
+xi386
+lSLF07#2@117"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest325734587#325734587#0(0"0(0#0#0"8617040480#636"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/i386/GCTest"0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest" normal ppc
+s325734587.647082
+e325734587.968209
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest
+xnormal
+xppc
+lSLF07#2@116"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest325734587#325734587#0(0"0(0#0#0"8610817856#633"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/ppc/GCTest"0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest" normal x86_64
+s325734587.403558
+e325734587.520359
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest
+xnormal
+xx86_64
+lSLF07#2@119"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest325734587#325734587#0(0"0(0#0#0"8610424640#642"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/Objects-normal/x86_64/GCTest"0#
+
+CProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Info.plist "GCTest/GC Test-Info.plist"
+s325734581.318309
+e325734581.371971
+r1
+xProcessInfoPlistFile
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Info.plist
+xGCTest/GC Test-Info.plist
+lSLF07#2@33"Process GCTest/GC Test-Info.plist325734581#325734581#0(0"0(0#0#69"/Users/koch/texshop2.41-64/3rdparty/OgreKit/GCTest/GC Test-Info.plist8610172608#336"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    builtin-infoPlistUtility "GCTest/GC Test-Info.plist" -genpkginfo /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734581.847149
+e325734586.674705
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h.gch
+x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h325734581#325734586#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h8611898496#1426"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cklsjynqnbbhcdbckvriajztjjjd/AppKit.h.gch0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_2
+s325734581.847951
+e325734587.092270
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h.gch
+x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h325734581#325734587#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h8611705504#1434"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-fofivvygbtiqqtdyfrnpbnqpkeub/AppKit.h.gch0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734581.846206
+e325734586.396375
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h.gch
+x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h325734581#325734586#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h8612280448#1430"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-generated-files.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-own-target-headers.hmap" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-all-target-headers.hmap" -iquote "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/GCTest-project-headers.hmap" -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/GC Test.build/DerivedSources" -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gbcaqhcsuhjjakaeqqkcxypxqtwx/AppKit.h.gch0#
+
+CTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app
+s325734588.046018
+e325734588.060773
+r1
+xTouch
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app
+lSLF07#2@74"Touch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app325734588#325734588#0(0"0(0#0#0"8610377312#142"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /usr/bin/touch -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/GCTest.app0#
+

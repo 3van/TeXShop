@@ -1,0 +1,880 @@
+TMy Find Panel Example
+v7
+r0
+t325734577.041092
+cCheck dependencies
+cProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Info.plist MyFindPanelExample/MyFindPanelExample-Info.plist
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyFindPanel.nib
+cCpResource build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/Credits.rtf MyFindPanelExample/English.lproj/Credits.rtf
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MainMenu.nib
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyDocument.nib
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h.gch MyFindPanelExample/MyFindPanelExample_Prefix.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h.gch MyFindPanelExample/MyFindPanelExample_Prefix.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h.gch MyFindPanelExample/MyFindPanelExample_Prefix.h normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyTextFinder.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyTextFinder.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample" normal x86_64
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyTextFinder.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample" normal i386
+cCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample" normal ppc
+cCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/MacOS/MyFindPanelExample normal "x86_64 i386 ppc"
+cPBXCp build/Release/MyFindPanelExample.app/Contents/Frameworks/OgreKit.framework build/Release/OgreKit.framework
+cTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004CDDF45E00000000000000EE
+t1289614430
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CDDF46F00000000000000EE
+t1289614447
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreFindPanelController.h
+c0000000041DCE1CB00000000000002D0
+t1104994763
+s720
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreFindResultWindowController.h
+c000000004B91FC00000000000000049E
+t1267858432
+s1182
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreTextFindResult.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreTextFindProgressSheet.h
+c000000004B9253BF0000000000000886
+t1267880895
+s2182
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindBranch.h
+c0000000041DCE1BE00000000000003B0
+t1104994750
+s944
+i<OgreKit/OgreTextFindComponent.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindComponent.h
+c0000000041DCE1BE0000000000000758
+t1104994750
+s1880
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindComponentEnumerator.h
+c000000004B92413F0000000000000329
+t1267876159
+s809
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindLeaf.h
+c0000000041DCE1BF0000000000000608
+t1104994751
+s1544
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindReverseComponentEnumerator.h
+c0000000041DCE1BF00000000000001CB
+t1104994751
+s459
+i<OgreKit/OgreTextFindComponentEnumerator.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreFindResultBranch.h
+c0000000041DCE1C40000000000000312
+t1104994756
+s786
+i<OgreKit/OgreTextFindBranch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreFindResultLeaf.h
+c0000000041DCE1C500000000000002D4
+t1104994757
+s724
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreTextFindResult.h
+c000000004B9253B20000000000000E4C
+t1267880882
+s3660
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreFindResultLeaf.h>
+i<OgreKit/OgreFindResultBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindThread.h
+c000000004B9254A80000000000001119
+t1267881128
+s4377
+i<Cocoa/Cocoa.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OgreTextFindProgressSheet.h>
+i<OgreKit/OgreTextFindResult.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindThreads/OgreTextFindProgressDelegate.h
+c000000004B927ED700000000000003A6
+t1267891927
+s934
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFinder.h
+c0000000042C7A79800000000000017FB
+t1120380824
+s6139
+i<Cocoa/Cocoa.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreOutlineColumn.h
+c0000000041DCE1CA0000000000000258
+t1104994762
+s600
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreOutlineView.h
+c0000000041DCE1CA0000000000000312
+t1104994762
+s786
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTableColumn.h
+c0000000041DCE1C90000000000000288
+t1104994761
+s648
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTableView.h
+c0000000041DCE1C900000000000002F8
+t1104994761
+s760
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTextView.h
+c0000000041DCE1C9000000000000026B
+t1104994761
+s619
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreView.h
+c0000000041DCE1C900000000000001F6
+t1104994761
+s502
+i<AppKit/AppKit.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindLeaf.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/Credits.rtf
+c000000003F61F2FE00000000000001B4
+t1063383806
+s436
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MainMenu.nib
+c000000003FBD115500000000000000AA
+t1069355349
+s170
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyDocument.nib
+c000000003F76FD7B00000000000000AA
+t1064762747
+s170
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyFindPanel.nib
+c000000003FBD10AB00000000000000AA
+t1069355179
+s170
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.h
+c0000000041DCE1D80000000000000279
+t1104994776
+s633
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m
+c000000004B9266080000000000000B21
+t1267885576
+s2849
+i"MyDocument.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.h
+c0000000041DCE1D70000000000000430
+t1104994775
+s1072
+i<Foundation/Foundation.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m
+c0000000041DCE1D70000000000001AFC
+t1104994775
+s6908
+i"MyFindPanelController.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h
+c0000000041DCE1D8000000000000017C
+t1104994776
+s380
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.h
+c0000000041DCE1D800000000000001D0
+t1104994776
+s464
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m
+c0000000041DCE1D80000000000000358
+t1104994776
+s856
+i"MyMenuController.h"
+i"MyDocument.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.h
+c0000000041DCE1D7000000000000018F
+t1104994775
+s399
+i<Foundation/Foundation.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m
+c0000000041DCE1D70000000000000197
+t1104994775
+s407
+i"MyTextFinder.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m
+c0000000041DCE1D80000000000000183
+t1104994776
+s387
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.h
+c0000000041DCE1BB0000000000000C27
+t1104994747
+s3111
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableString.h
+c0000000041DCE1BA0000000000000472
+t1104994746
+s1138
+i<Foundation/Foundation.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.h
+c000000004B92877F0000000000005C43
+t1267894143
+s23619
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.h
+c0000000041DCE1B70000000000000BC3
+t1104994743
+s3011
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.h
+c0000000041DCE1B600000000000004F6
+t1104994742
+s1270
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.h
+c0000000041DCE1B90000000000000561
+t1104994745
+s1377
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h
+c0000000041DCE1B700000000000022DE
+t1104994743
+s8926
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.h
+c0000000041DCE1B80000000000000E00
+t1104994744
+s3584
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.h
+c0000000041DCE1B9000000000000024B
+t1104994745
+s587
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OgreKit.h
+c000000004B9282E50000000000000698
+t1267892965
+s1688
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGRegularExpressionFormatter.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/NSString_OgreKitAdditions.h>
+i<OgreKit/OGString.h>
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreTextFindThread.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindComponentEnumerator.h>
+i<OgreKit/OgreTextFindReverseComponentEnumerator.h>
+i<OgreKit/OgreTextFindResult.h>
+i<OgreKit/OgreFindResultLeaf.h>
+i<OgreKit/OgreFindResultBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+i<OgreKit/OgreTextView.h>
+i<OgreKit/OgreTableView.h>
+i<OgreKit/OgreTableColumn.h>
+i<OgreKit/OgreOutlineView.h>
+i<OgreKit/OgreOutlineColumn.h>
+i<OgreKit/OgreTextFindProgressSheet.h>
+i<OgreKit/OgreFindResultWindowController.h>
+i<OgreKit/OgreFindPanelController.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/oniguruma.h
+c000000004B4830330000000000008E0B
+t1263022131
+s36363
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyDocument.o
+t1304041776
+s4912
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelController.o
+t1304041776
+s13604
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample
+t1304041776
+s23972
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample.LinkFileList
+c000000004DBA192C00000000000002A6
+t1304041772
+s678
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyMenuController.o
+t1304041776
+s2972
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyTextFinder.o
+t1304041776
+s2400
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/main.o
+t1304041776
+s1848
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyDocument.o
+t1304041776
+s6000
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelController.o
+t1304041776
+s18748
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample
+t1304041776
+s28128
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample.LinkFileList
+c000000004DBA192C00000000000002A1
+t1304041772
+s673
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyMenuController.o
+t1304041776
+s3480
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyTextFinder.o
+t1304041776
+s2544
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/main.o
+t1304041776
+s2140
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyDocument.o
+t1304041776
+s8912
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelController.o
+t1304041776
+s22068
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample
+t1304041776
+s25760
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample.LinkFileList
+c000000004DBA192C00000000000002B0
+t1304041772
+s688
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyMenuController.o
+t1304041776
+s4040
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyTextFinder.o
+t1304041776
+s3152
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/main.o
+t1304041776
+s1752
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app
+t1304041777
+s102
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Frameworks/OgreKit.framework
+t1304041777
+s204
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Info.plist
+t1304041772
+s1000
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/MacOS/MyFindPanelExample
+t1304041776
+s85472
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/PkgInfo
+t1304041772
+s8
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/Credits.rtf
+t1304041772
+s436
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/MainMenu.nib
+t1304041773
+s22176
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/MyDocument.nib
+t1304041773
+s4423
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/MyFindPanel.nib
+t1304041773
+s10269
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework
+c000000004DBA192300000000000000CC
+t1304041763
+s204
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework/OgreKit
+c000000004DBA1923000000000021BCE8
+t1304041763
+s2211048
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h.gch
+t1304041776
+s41224912
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h.gch
+t1304041776
+s42822384
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h.gch
+t1304041774
+s21506392
+
+NMyFindPanelExample/MyFindPanelExample-Info.plist
+c000000003FC1E6820000000000000490
+t1069672066
+s1168
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325734572#325734572#0(0"0(0#1#0"8617799136#0"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734576.479216
+e325734576.651052
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m325734576#325734576#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m8615189376#1240"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734576.435318
+e325734576.660296
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m325734576#325734576#0(0"0(0#0#86"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m8610884640#1262"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelController.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734576.616740
+e325734576.842304
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyMenuController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m325734576#325734576#0(0"0(0#0#81"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m8612117856#1252"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyMenuController.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyTextFinder.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734576.433745
+e325734576.616595
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyTextFinder.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m325734576#325734576#0(0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m8611250720#1244"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyTextFinder.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734576.651172
+e325734576.818784
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m325734576#325734576#0(0"0(0#0#69"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m8611866208#1228"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734576.772473
+e325734576.891679
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m325734576#325734576#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m8618932544#1248"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734576.681577
+e325734576.845035
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@94"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m325734576#325734576#0(0"0(0#0#86"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m8609903424#1270"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelController.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734576.818918
+e325734576.935955
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyMenuController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@89"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m325734576#325734576#0(0"0(0#0#81"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m8615144736#1260"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyMenuController.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyTextFinder.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734576.660425
+e325734576.772150
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyTextFinder.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@85"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m325734576#325734576#0(0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m8611530368#1252"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyTextFinder.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734576.845151
+e325734576.946300
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m325734576#325734576#0(0"0(0#0#69"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m8612860032#1236"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/main.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734576.252106
+e325734576.435219
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m325734576#325734576#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m8612367904#1246"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734576.251221
+e325734576.479084
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m325734576#325734576#0(0"0(0#0#86"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m8612805728#1268"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelController.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734576.252971
+e325734576.433615
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyMenuController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m325734576#325734576#0(0"0(0#0#81"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m8612132512#1258"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyMenuController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyMenuController.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyTextFinder.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734576.250200
+e325734576.424840
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyTextFinder.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m325734576#325734576#0(0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m8613528096#1250"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyTextFinder.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyTextFinder.o"0#
+
+CCompileC "build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734576.425021
+e325734576.613915
+r1
+xCompileC
+xbuild/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m325734576#325734576#0(0"0(0#0#69"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m8611522880#1234"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/main.o"0#
+
+CCpResource build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/Credits.rtf MyFindPanelExample/English.lproj/Credits.rtf
+s325734572.947222
+e325734572.952986
+r1
+xCpResource
+xbuild/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/Credits.rtf
+xMyFindPanelExample/English.lproj/Credits.rtf
+lSLF07#2@49"Copy MyFindPanelExample/English.lproj/Credits.rtf325734572#325734572#0(0"0(0#0#88"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/Credits.rtf8612292160#437"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/Credits.rtf /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/MacOS/MyFindPanelExample normal "x86_64 i386 ppc"
+s325734576.995230
+e325734576.998672
+r1
+xCreateUniversalBinary
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/MacOS/MyFindPanelExample
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@117"CreateUniversalBinary build/Release/MyFindPanelExample.app/Contents/MacOS/MyFindPanelExample normal "x86_64 i386 ppc"325734576#325734576#0(0"0(0#0#59"/Users/koch/texshop2.41-64/3rdparty/OgreKit/x86_64 i386 ppc8611421024#624"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /usr/bin/lipo -create "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample" "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample" "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample" -output /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/MacOS/MyFindPanelExample0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample" normal i386
+s325734576.842421
+e325734576.890869
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample
+xnormal
+xi386
+lSLF07#2@143"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample325734576#325734576#0(0"0(0#0#0"8613715776#688"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/i386/MyFindPanelExample"0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample" normal ppc
+s325734576.946405
+e325734576.995122
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample
+xnormal
+xppc
+old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
+lSLF07#2@142"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample325734576#325734576#0(184"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o1(22@170"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o325734576#0#184#0(6@0"325734576#0#0#0#0#0"0(0#0#0"8611665760#686"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample.LinkFileList" -mmacosx-version-min=10.4 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/ppc/MyFindPanelExample"0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample" normal x86_64
+s325734576.614036
+e325734576.681446
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample
+xnormal
+xx86_64
+lSLF07#2@145"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample325734576#325734576#0(0"0(0#0#0"8612560288#694"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/Objects-normal/x86_64/MyFindPanelExample"0#
+
+CPBXCp build/Release/MyFindPanelExample.app/Contents/Frameworks/OgreKit.framework build/Release/OgreKit.framework
+s325734576.998760
+e325734577.037916
+r1
+xPBXCp
+xbuild/Release/MyFindPanelExample.app/Contents/Frameworks/OgreKit.framework
+xbuild/Release/OgreKit.framework
+lSLF07#2@36"Copy build/Release/OgreKit.framework325734576#325734577#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework8618380416#411"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Info.plist MyFindPanelExample/MyFindPanelExample-Info.plist
+s325734572.943734
+e325734572.946488
+r1
+xProcessInfoPlistFile
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Info.plist
+xMyFindPanelExample/MyFindPanelExample-Info.plist
+lSLF07#2@56"Process MyFindPanelExample/MyFindPanelExample-Info.plist325734572#325734572#0(0"0(0#0#92"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample-Info.plist8613073184#381"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    builtin-infoPlistUtility MyFindPanelExample/MyFindPanelExample-Info.plist -genpkginfo /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h.gch MyFindPanelExample/MyFindPanelExample_Prefix.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734573.074231
+e325734576.212889
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h.gch
+xMyFindPanelExample/MyFindPanelExample_Prefix.h
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Precompile MyFindPanelExample/MyFindPanelExample_Prefix.h325734573#325734576#0(0"0(0#0#90"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h8610788128#1126"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-afdqdwnkktqxitctrvzfsgsmuyoj/MyFindPanelExample_Prefix.h.gch0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h.gch MyFindPanelExample/MyFindPanelExample_Prefix.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734573.075198
+e325734576.250111
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h.gch
+xMyFindPanelExample/MyFindPanelExample_Prefix.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Precompile MyFindPanelExample/MyFindPanelExample_Prefix.h325734573#325734576#0(0"0(0#0#90"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h8610494208#1122"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-cfuxdxbklpofflgmaacgdxdzrlzu/MyFindPanelExample_Prefix.h.gch0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h.gch MyFindPanelExample/MyFindPanelExample_Prefix.h normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734573.075933
+e325734574.587931
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h.gch
+xMyFindPanelExample/MyFindPanelExample_Prefix.h
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@57"Precompile MyFindPanelExample/MyFindPanelExample_Prefix.h325734573#325734574#0(0"0(0#0#90"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h8603968352#1131"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/MyFindPanelExample.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/My Find Panel Example.build/DerivedSources" -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyFindPanelExample_Prefix.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyFindPanelExample_Prefix-crqefixybgspnleiwzbmbdprlpff/MyFindPanelExample_Prefix.h.gch0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MainMenu.nib
+s325734572.947746
+e325734573.074141
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MainMenu.nib
+lSLF07#2@54"StripNIB MyFindPanelExample/English.lproj/MainMenu.nib325734572#325734573#0(0"0(0#0#89"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MainMenu.nib8612235264#342"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyDocument.nib
+s325734572.948275
+e325734573.065221
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyDocument.nib
+lSLF07#2@56"StripNIB MyFindPanelExample/English.lproj/MyDocument.nib325734572#325734573#0(0"0(0#0#91"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyDocument.nib8612207680#346"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/MyDocument.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyDocument.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyFindPanel.nib
+s325734572.946555
+e325734573.073895
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyFindPanel.nib
+lSLF07#2@57"StripNIB MyFindPanelExample/English.lproj/MyFindPanel.nib325734572#325734573#0(0"0(0#0#92"/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyFindPanel.nib8612341824#348"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app/Contents/Resources/English.lproj/MyFindPanel.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/English.lproj/MyFindPanel.nib0#
+
+CTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app
+s325734577.038001
+e325734577.041065
+r1
+xTouch
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app
+lSLF07#2@86"Touch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app325734577#325734577#0(0"0(0#0#0"8617088256#154"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /usr/bin/touch -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/MyFindPanelExample.app0#
+

@@ -1,0 +1,1390 @@
+TFind Panel Test
+v7
+r0
+t325734572.935149
+cCheck dependencies
+cProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Info.plist FindPanelTest/FindPanelTest-Info.plist
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/InfoPlist.strings FindPanelTest/English.lproj/InfoPlist.strings
+cCpResource build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/Credits.rtf FindPanelTest/English.lproj/Credits.rtf
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocument.nib
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableColumnSheet.nib
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyOutlineDocument.nib
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyRTFDocument.nib
+cStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTextDocument.nib
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h.gch FindPanelTest/OgreFindPanelTest_Prefix.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h.gch FindPanelTest/OgreFindPanelTest_Prefix.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h.gch FindPanelTest/OgreFindPanelTest_Prefix.h normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTextDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyRTFDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableColumnSheet.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyFileWrapper.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineView.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocumentWithCocoaBinding.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableRowModel.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTextDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyRTFDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest" normal x86_64
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableColumnSheet.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyFileWrapper.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineView.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocumentWithCocoaBinding.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableRowModel.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTextDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyRTFDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest" normal i386
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableColumnSheet.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyFileWrapper.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineView.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocumentWithCocoaBinding.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableRowModel.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest" normal ppc
+cCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/MacOS/OgreFindPanelTest normal "x86_64 i386 ppc"
+cPBXCp build/Release/OgreFindPanelTest.app/Contents/Frameworks/OgreKit.framework build/Release/OgreKit.framework
+cTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004CDDF45E00000000000000EE
+t1289614430
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CDDF46F00000000000000EE
+t1289614447
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreFindPanelController.h
+c0000000041DCE1CB00000000000002D0
+t1104994763
+s720
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreFindResultWindowController.h
+c000000004B91FC00000000000000049E
+t1267858432
+s1182
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreTextFindResult.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Controllers/OgreTextFindProgressSheet.h
+c000000004B9253BF0000000000000886
+t1267880895
+s2182
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindBranch.h
+c0000000041DCE1BE00000000000003B0
+t1104994750
+s944
+i<OgreKit/OgreTextFindComponent.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindComponent.h
+c0000000041DCE1BE0000000000000758
+t1104994750
+s1880
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindComponentEnumerator.h
+c000000004B92413F0000000000000329
+t1267876159
+s809
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindLeaf.h
+c0000000041DCE1BF0000000000000608
+t1104994751
+s1544
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindComponents/OgreTextFindReverseComponentEnumerator.h
+c0000000041DCE1BF00000000000001CB
+t1104994751
+s459
+i<OgreKit/OgreTextFindComponentEnumerator.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreFindResultBranch.h
+c0000000041DCE1C40000000000000312
+t1104994756
+s786
+i<OgreKit/OgreTextFindBranch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreFindResultLeaf.h
+c0000000041DCE1C500000000000002D4
+t1104994757
+s724
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindResults/OgreTextFindResult.h
+c000000004B9253B20000000000000E4C
+t1267880882
+s3660
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreFindResultLeaf.h>
+i<OgreKit/OgreFindResultBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindThread.h
+c000000004B9254A80000000000001119
+t1267881128
+s4377
+i<Cocoa/Cocoa.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OgreTextFindProgressSheet.h>
+i<OgreKit/OgreTextFindResult.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFindThreads/OgreTextFindProgressDelegate.h
+c000000004B927ED700000000000003A6
+t1267891927
+s934
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/OgreTextFinder.h
+c0000000042C7A79800000000000017FB
+t1120380824
+s6139
+i<Cocoa/Cocoa.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreOutlineColumn.h
+c0000000041DCE1CA0000000000000258
+t1104994762
+s600
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreOutlineView.h
+c0000000041DCE1CA0000000000000312
+t1104994762
+s786
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTableColumn.h
+c0000000041DCE1C90000000000000288
+t1104994761
+s648
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTableView.h
+c0000000041DCE1C900000000000002F8
+t1104994761
+s760
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreTextView.h
+c0000000041DCE1C9000000000000026B
+t1104994761
+s619
+i<AppKit/AppKit.h>
+i<OgreKit/OgreView.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanel/Views/OgreView.h
+c0000000041DCE1C900000000000001F6
+t1104994761
+s502
+i<AppKit/AppKit.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindLeaf.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/Credits.rtf
+c000000003F61F2FE00000000000001B4
+t1063383806
+s436
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/InfoPlist.strings
+c0000000041DCE1D70000000000000244
+t1104994775
+s580
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MainMenu.nib
+c0000000040D2CB0000000000000000EE
+t1087556352
+s238
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyOutlineDocument.nib
+c0000000040D7584B00000000000000EE
+t1087854667
+s238
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyRTFDocument.nib
+c0000000041587A9200000000000000AA
+t1096317586
+s170
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableColumnSheet.nib
+c0000000040D78D4900000000000000AA
+t1087868233
+s170
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocument.nib
+c0000000040CBEA1E00000000000000EE
+t1087105566
+s238
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib
+c0000000040D1D2B400000000000000EE
+t1087492788
+s238
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTextDocument.nib
+c000000004147224700000000000000AA
+t1095180871
+s170
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.h
+c0000000041DCE1D5000000000000038D
+t1104994773
+s909
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m
+c000000004B926E350000000000000DC9
+t1267887669
+s3529
+i"MyFileWrapper.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.h
+c0000000041DCE1D300000000000002AF
+t1104994771
+s687
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m
+c0000000041DCE1D4000000000000082D
+t1104994772
+s2093
+i"MyMenuController.h"
+i"MyDocument.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.h
+c0000000041DCE1D500000000000002AE
+t1104994773
+s686
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m
+c000000004B9241D2000000000000191D
+t1267876306
+s6429
+i"MyOutlineDocument.h"
+i"MyFileWrapper.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.h
+c0000000041DCE1D600000000000001EE
+t1104994774
+s494
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m
+c0000000041DCE1D600000000000002D3
+t1104994774
+s723
+i"MyOutlineView.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.h
+c0000000041DCE1D400000000000002F9
+t1104994772
+s761
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m
+c000000004B926E3F0000000000000732
+t1267887679
+s1842
+i"MyRTFDocument.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.h
+c0000000041DCE1D500000000000003D9
+t1104994773
+s985
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m
+c000000004B91F5E7000000000000074D
+t1267856871
+s1869
+i"MyTableColumnSheet.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.h
+c0000000041DCE1D400000000000003F0
+t1104994772
+s1008
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m
+c000000004B924F35000000000000427B
+t1267879733
+s17019
+i"MyTableDocument.h"
+i"MyTableColumnSheet.h"
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.h
+c0000000041DCE1D600000000000002D4
+t1104994774
+s724
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m
+c0000000041DCE1D6000000000000069E
+t1104994774
+s1694
+i"MyTableDocumentWithCocoaBinding.h"
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.h
+c0000000041DCE1D6000000000000021C
+t1104994774
+s540
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m
+c000000004B926E2800000000000003CA
+t1267887656
+s970
+i"MyTableRowModel.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.h
+c0000000041DCE1D400000000000002F8
+t1104994772
+s760
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m
+c000000004B926A390000000000000BC6
+t1267886649
+s3014
+i"MyTextDocument.h"
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h
+c0000000041DCE1D3000000000000017A
+t1104994771
+s378
+i<Cocoa/Cocoa.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m
+c0000000041DCE1D30000000000000183
+t1104994771
+s387
+i<Cocoa/Cocoa.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/MyFindPanelExample/MyDocument.h
+c0000000041DCE1D80000000000000279
+t1104994776
+s633
+i<AppKit/AppKit.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.h
+c0000000041DCE1BB0000000000000C27
+t1104994747
+s3111
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableString.h
+c0000000041DCE1BA0000000000000472
+t1104994746
+s1138
+i<Foundation/Foundation.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.h
+c000000004B92877F0000000000005C43
+t1267894143
+s23619
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.h
+c0000000041DCE1B70000000000000BC3
+t1104994743
+s3011
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.h
+c0000000041DCE1B600000000000004F6
+t1104994742
+s1270
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.h
+c0000000041DCE1B90000000000000561
+t1104994745
+s1377
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h
+c0000000041DCE1B700000000000022DE
+t1104994743
+s8926
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.h
+c0000000041DCE1B80000000000000E00
+t1104994744
+s3584
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.h
+c0000000041DCE1B9000000000000024B
+t1104994745
+s587
+i<Foundation/Foundation.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OgreKit.h
+c000000004B9282E50000000000000698
+t1267892965
+s1688
+i<Foundation/Foundation.h>
+i<OgreKit/oniguruma.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGRegularExpressionFormatter.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/NSString_OgreKitAdditions.h>
+i<OgreKit/OGString.h>
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OgreTextFinder.h>
+i<OgreKit/OgreTextFindThread.h>
+i<OgreKit/OgreTextFindComponent.h>
+i<OgreKit/OgreTextFindLeaf.h>
+i<OgreKit/OgreTextFindBranch.h>
+i<OgreKit/OgreTextFindComponentEnumerator.h>
+i<OgreKit/OgreTextFindReverseComponentEnumerator.h>
+i<OgreKit/OgreTextFindResult.h>
+i<OgreKit/OgreFindResultLeaf.h>
+i<OgreKit/OgreFindResultBranch.h>
+i<OgreKit/OgreTextFindProgressDelegate.h>
+i<OgreKit/OgreTextView.h>
+i<OgreKit/OgreTableView.h>
+i<OgreKit/OgreTableColumn.h>
+i<OgreKit/OgreOutlineView.h>
+i<OgreKit/OgreOutlineColumn.h>
+i<OgreKit/OgreTextFindProgressSheet.h>
+i<OgreKit/OgreFindResultWindowController.h>
+i<OgreKit/OgreFindPanelController.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/oniguruma.h
+c000000004B4830330000000000008E0B
+t1263022131
+s36363
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyFileWrapper.o
+t1304041772
+s8236
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyMenuController.o
+t1304041771
+s5444
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineDocument.o
+t1304041772
+s10148
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineView.o
+t1304041772
+s2748
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyRTFDocument.o
+t1304041772
+s4872
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableColumnSheet.o
+t1304041772
+s5464
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocument.o
+t1304041772
+s20720
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocumentWithCocoaBinding.o
+t1304041772
+s4996
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableRowModel.o
+t1304041772
+s4120
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTextDocument.o
+t1304041772
+s5632
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest
+t1304041772
+s45708
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest.LinkFileList
+c000000004DBA192700000000000005B0
+t1304041767
+s1456
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/main.o
+t1304041771
+s1848
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyFileWrapper.o
+t1304041772
+s11140
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyMenuController.o
+t1304041772
+s7000
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineDocument.o
+t1304041772
+s13660
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineView.o
+t1304041772
+s3252
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyRTFDocument.o
+t1304041772
+s6044
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableColumnSheet.o
+t1304041772
+s6756
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocument.o
+t1304041772
+s30628
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocumentWithCocoaBinding.o
+t1304041772
+s6060
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableRowModel.o
+t1304041772
+s5184
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTextDocument.o
+t1304041772
+s7076
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest
+t1304041772
+s58288
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest.LinkFileList
+c000000004DBA192700000000000005A5
+t1304041767
+s1445
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/main.o
+t1304041772
+s2140
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyFileWrapper.o
+t1304041771
+s15768
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyMenuController.o
+t1304041771
+s8824
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineDocument.o
+t1304041771
+s18812
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineView.o
+t1304041771
+s3664
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyRTFDocument.o
+t1304041771
+s9660
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableColumnSheet.o
+t1304041771
+s10296
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocument.o
+t1304041771
+s34228
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocumentWithCocoaBinding.o
+t1304041771
+s9580
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableRowModel.o
+t1304041771
+s7292
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTextDocument.o
+t1304041771
+s10728
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest
+t1304041771
+s62392
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest.LinkFileList
+c000000004DBA192700000000000005C6
+t1304041767
+s1478
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/main.o
+t1304041771
+s1752
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app
+t1304041772
+s102
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Frameworks/OgreKit.framework
+t1304041772
+s204
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Info.plist
+t1304041767
+s2249
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/MacOS/OgreFindPanelTest
+t1304041772
+s177072
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/PkgInfo
+t1304041767
+s8
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/Credits.rtf
+t1304041767
+s436
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1304041767
+s1162
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MainMenu.nib
+t1304041767
+s16752
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyOutlineDocument.nib
+t1304041767
+s5729
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyRTFDocument.nib
+t1304041767
+s5099
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTableColumnSheet.nib
+t1304041767
+s4720
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTableDocument.nib
+t1304041767
+s6696
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTableDocumentWithCocoaBinding.nib
+t1304041767
+s9295
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTextDocument.nib
+t1304041768
+s5099
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework
+c000000004DBA192300000000000000CC
+t1304041763
+s204
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework/OgreKit
+c000000004DBA1923000000000021BCE8
+t1304041763
+s2211048
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h.gch
+t1304041769
+s21506392
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h.gch
+t1304041771
+s42822384
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h.gch
+t1304041770
+s41224912
+
+NFindPanelTest/FindPanelTest-Info.plist
+c0000000040D2C9100000000000000971
+t1087555856
+s2417
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325734567#325734567#0(0"0(0#1#0"8622100992#0"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyFileWrapper.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734572.082919
+e325734572.286569
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyFileWrapper.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m325734572#325734572#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m8616495040#1214"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyFileWrapper.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734571.799724
+e325734571.976532
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyMenuController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m325734571#325734572#0(0"0(0#0#76"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m8615216960#1220"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyMenuController.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734572.029205
+e325734572.242452
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m325734572#325734572#0(0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m8618599808#1222"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineView.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734572.160500
+e325734572.349601
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineView.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m325734572#325734572#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m8614987584#1214"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyOutlineView.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyRTFDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734571.877620
+e325734572.082796
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyRTFDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m325734571#325734572#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m8613428672#1214"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyRTFDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableColumnSheet.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734571.976670
+e325734572.160365
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableColumnSheet.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m325734571#325734572#0(0"0(0#0#78"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m8611419936#1224"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableColumnSheet.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734571.942829
+e325734572.216741
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m325734571#325734572#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m8611801088#1218"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocumentWithCocoaBinding.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734572.217117
+e325734572.425240
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocumentWithCocoaBinding.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m325734572#325734572#0(0"0(0#0#91"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m8612333184#1250"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableDocumentWithCocoaBinding.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableRowModel.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734572.242585
+e325734572.439861
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableRowModel.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m325734572#325734572#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m8612150432#1218"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTableRowModel.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTextDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734571.839951
+e325734572.029084
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTextDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m325734571#325734572#0(0"0(0#0#74"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m8614335392#1216"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/MyTextDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734571.705052
+e325734571.877230
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m325734571#325734571#0(0"0(0#0#64"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m8619546624#1196"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyFileWrapper.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.562854
+e325734572.717122
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyFileWrapper.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m325734572#325734572#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m8612639424#1222"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyFileWrapper.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.349744
+e325734572.465224
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyMenuController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@84"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m325734572#325734572#0(0"0(0#0#76"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m8615559296#1228"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyMenuController.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.547456
+e325734572.702488
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@85"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m325734572#325734572#0(0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m8613802048#1230"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineView.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.612497
+e325734572.746138
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineView.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m325734572#325734572#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m8611132864#1222"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyOutlineView.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyRTFDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.425377
+e325734572.562733
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyRTFDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m325734572#325734572#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m8613203776#1222"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyRTFDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableColumnSheet.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.496191
+e325734572.612372
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableColumnSheet.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@86"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m325734572#325734572#0(0"0(0#0#78"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m8616329408#1232"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableColumnSheet.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.465348
+e325734572.661496
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m325734572#325734572#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m8612495872#1226"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocumentWithCocoaBinding.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.661627
+e325734572.779974
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocumentWithCocoaBinding.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@99"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m325734572#325734572#0(0"0(0#0#91"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m8610795648#1258"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableDocumentWithCocoaBinding.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableRowModel.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.702600
+e325734572.808978
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableRowModel.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m325734572#325734572#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m8622588352#1226"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTableRowModel.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTextDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.400925
+e325734572.547330
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTextDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@82"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m325734572#325734572#0(0"0(0#0#74"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m8614352704#1224"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/MyTextDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734572.286697
+e325734572.400797
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@72"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m325734572#325734572#0(0"0(0#0#64"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m8618148608#1204"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/main.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyFileWrapper.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.461683
+e325734571.683272
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyFileWrapper.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m325734571#325734571#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m8615228960#1220"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyFileWrapper.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyMenuController.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.259273
+e325734571.461569
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyMenuController.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m325734571#325734571#0(0"0(0#0#76"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m8614556096#1226"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyMenuController.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyMenuController.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.456465
+e325734571.662084
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m: In function '-[MyOutlineDocument outlineView:numberOfChildrenOfItem:]':
+o/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m:109: warning: multiple methods named '-numberOfComponents' found
+o/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CIColor.h:34: warning: using '-(size_t)numberOfComponents'
+o/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.h:35: warning: also found '-(unsigned int)numberOfComponents'
+o/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSColor.h:244: warning: also found '-(NSInteger)numberOfComponents'
+lSLF07#2@85"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m325734571#325734571#0(723"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m: In function '-[MyOutlineDocument outlineView:numberOfChildrenOfItem:]':/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m:109: warning: multiple methods named '-numberOfComponents' found/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CIColor.h:34: warning: using '-(size_t)numberOfComponents'/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.h:35: warning: also found '-(unsigned int)numberOfComponents'/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSColor.h:244: warning: also found '-(NSInteger)numberOfComponents'4(22@50"Multiple methods named '-numberOfComponents' found325734571#151#143#0(6@77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m289569106#109#0#109#0#0"0(22@35"Using '-(size_t)numberOfComponents'325734571#294#145#0(6@95"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CIColor.h299102054#34#0#34#0#0"0(22@46"Also found '-(unsigned int)numberOfComponents'325734571#439#134#0(6@73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyFileWrapper.h126687573#35#0#35#0#0"0(22@43"Also found '-(NSInteger)numberOfComponents'325734571#573#150#0(6@91"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSColor.h299103401#244#0#244#0#0"0(0#0#77"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m8616517376#1228"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineView.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.636633
+e325734571.799583
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineView.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m325734571#325734571#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m8611818752#1220"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyOutlineView.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyOutlineView.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyRTFDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.260891
+e325734571.452540
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyRTFDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m325734571#325734571#0(0"0(0#0#73"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m8613535008#1220"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyRTFDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyRTFDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableColumnSheet.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.452661
+e325734571.636499
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableColumnSheet.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m325734571#325734571#0(0"0(0#0#78"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m8617804512#1230"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableColumnSheet.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableColumnSheet.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.429356
+e325734571.704930
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m: In function '-[MyTableDocument numberOfRows]':
+o/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m:195: warning: multiple methods named '-count' found
+o/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:16: warning: using '-(NSUInteger)count'
+o/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h:49: warning: also found '-(unsigned int)count'
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m325734571#325734571#0(524"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m: In function '-[MyTableDocument numberOfRows]':/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m:195: warning: multiple methods named '-count' found/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:16: warning: using '-(NSUInteger)count'/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h:49: warning: also found '-(unsigned int)count'3(22@37"Multiple methods named '-count' found325734571#124#128#0(6@75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m289572533#195#0#195#0#0"0(22@26"Using '-(NSUInteger)count'325734571#252#136#0(6@95"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h299098500#16#0#16#0#0"0(22@33"Also found '-(unsigned int)count'325734571#388#136#0(6@88"/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h126687543#49#0#49#0#0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m8623466816#1224"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocumentWithCocoaBinding.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.662212
+e325734571.839820
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocumentWithCocoaBinding.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m325734571#325734571#0(0"0(0#0#91"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m8612487552#1256"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableDocumentWithCocoaBinding.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableDocumentWithCocoaBinding.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableRowModel.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.683381
+e325734571.890515
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableRowModel.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m325734571#325734571#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m8612120128#1224"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTableRowModel.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTableRowModel.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTextDocument.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.260073
+e325734571.451982
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTextDocument.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m325734571#325734571#0(0"0(0#0#74"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m8614004128#1222"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/MyTextDocument.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/MyTextDocument.o"0#
+
+CCompileC "build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/main.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734571.258172
+e325734571.429210
+r1
+xCompileC
+xbuild/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/main.o
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m325734571#325734571#0(0"0(0#0#64"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m8614809696#1202"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -include /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/main.m -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/main.o"0#
+
+CCopyStringsFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/InfoPlist.strings FindPanelTest/English.lproj/InfoPlist.strings
+s325734567.533881
+e325734567.600658
+r1
+xCopyStringsFile
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/InfoPlist.strings
+xFindPanelTest/English.lproj/InfoPlist.strings
+lSLF07#2@50"Copy FindPanelTest/English.lproj/InfoPlist.strings325734567#325734567#0(0"0(0#0#89"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/InfoPlist.strings8611317312#401"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 FindPanelTest/English.lproj/InfoPlist.strings --outdir /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/Credits.rtf FindPanelTest/English.lproj/Credits.rtf
+s325734567.534452
+e325734567.582069
+r1
+xCpResource
+xbuild/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/Credits.rtf
+xFindPanelTest/English.lproj/Credits.rtf
+lSLF07#2@44"Copy FindPanelTest/English.lproj/Credits.rtf325734567#325734567#0(0"0(0#0#83"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/Credits.rtf8611246496#431"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/Credits.rtf /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/MacOS/OgreFindPanelTest normal "x86_64 i386 ppc"
+s325734572.859660
+e325734572.863540
+r1
+xCreateUniversalBinary
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/MacOS/OgreFindPanelTest
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@115"CreateUniversalBinary build/Release/OgreFindPanelTest.app/Contents/MacOS/OgreFindPanelTest normal "x86_64 i386 ppc"325734572#325734572#0(0"0(0#0#59"/Users/koch/texshop2.41-64/3rdparty/OgreKit/x86_64 i386 ppc8612188992#601"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /usr/bin/lipo -create "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest" "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest" "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest" -output /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/MacOS/OgreFindPanelTest0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest" normal i386
+s325734572.439973
+e325734572.496056
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest
+xnormal
+xi386
+lSLF07#2@136"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest325734572#325734572#0(0"0(0#0#0"8613104160#674"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/i386/OgreFindPanelTest"0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest" normal ppc
+s325734572.809074
+e325734572.859560
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest
+xnormal
+xppc
+old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
+lSLF07#2@135"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest325734572#325734572#0(184"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o1(22@170"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o325734572#0#184#0(6@0"325734572#0#0#0#0#0"0(0#0#0"8612572160#672"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest.LinkFileList" -mmacosx-version-min=10.4 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/ppc/OgreFindPanelTest"0#
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest" normal x86_64
+s325734571.890624
+e325734571.942689
+r1
+xLd
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest
+xnormal
+xx86_64
+lSLF07#2@138"Link /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest325734571#325734571#0(0"0(0#0#0"8611153216#680"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -filelist "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OgreKit -o "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/Objects-normal/x86_64/OgreFindPanelTest"0#
+
+CPBXCp build/Release/OgreFindPanelTest.app/Contents/Frameworks/OgreKit.framework build/Release/OgreKit.framework
+s325734572.863612
+e325734572.931553
+r1
+xPBXCp
+xbuild/Release/OgreFindPanelTest.app/Contents/Frameworks/OgreKit.framework
+xbuild/Release/OgreKit.framework
+lSLF07#2@36"Copy build/Release/OgreKit.framework325734572#325734572#0(0"0(0#0#75"/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework8612127392#410"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreKit.framework /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Info.plist FindPanelTest/FindPanelTest-Info.plist
+s325734567.529888
+e325734567.533111
+r1
+xProcessInfoPlistFile
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Info.plist
+xFindPanelTest/FindPanelTest-Info.plist
+lSLF07#2@46"Process FindPanelTest/FindPanelTest-Info.plist325734567#325734567#0(0"0(0#0#82"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/FindPanelTest-Info.plist8612154752#369"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    builtin-infoPlistUtility FindPanelTest/FindPanelTest-Info.plist -genpkginfo /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h.gch FindPanelTest/OgreFindPanelTest_Prefix.h normal ppc objective-c com.apple.compilers.gcc.4_0
+s325734568.039539
+e325734569.627846
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h.gch
+xFindPanelTest/OgreFindPanelTest_Prefix.h
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@51"Precompile FindPanelTest/OgreFindPanelTest_Prefix.h325734568#325734569#0(0"0(0#0#84"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h8616569088#1104"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fobjc-gc -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/ppc" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-awktnrrtsynigyeobnseljahmbov/OgreFindPanelTest_Prefix.h.gch0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h.gch FindPanelTest/OgreFindPanelTest_Prefix.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s325734568.038816
+e325734571.258027
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h.gch
+xFindPanelTest/OgreFindPanelTest_Prefix.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Precompile FindPanelTest/OgreFindPanelTest_Prefix.h325734568#325734571#0(0"0(0#0#84"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h8617289184#1095"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/i386" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-eispoqyqqxcrzdhgbwdljipgjlxu/OgreFindPanelTest_Prefix.h.gch0#
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h.gch FindPanelTest/OgreFindPanelTest_Prefix.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325734568.037912
+e325734570.930417
+r1
+xProcessPCH
+x/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h.gch
+xFindPanelTest/OgreFindPanelTest_Prefix.h
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Precompile FindPanelTest/OgreFindPanelTest_Prefix.h325734568#325734570#0(0"0(0#0#84"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h8621040448#1099"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.6 "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/OgreFindPanelTest.hmap" -Wmost -F/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release -I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/include "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources/x86_64" "-I/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Release/Find Panel Test.build/DerivedSources" -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/OgreFindPanelTest_Prefix.h -o /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreFindPanelTest_Prefix-etlgsxhdbymiechkavtdgocfxzip/OgreFindPanelTest_Prefix.h.gch0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MainMenu.nib
+s325734567.533180
+e325734567.703480
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MainMenu.nib
+lSLF07#2@49"StripNIB FindPanelTest/English.lproj/MainMenu.nib325734567#325734567#0(0"0(0#0#84"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MainMenu.nib8611410400#336"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyOutlineDocument.nib
+s325734567.703577
+e325734567.933085
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyOutlineDocument.nib
+lSLF07#2@58"StripNIB FindPanelTest/English.lproj/MyOutlineDocument.nib325734567#325734567#0(0"0(0#0#93"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyOutlineDocument.nib8615615840#354"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyOutlineDocument.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyOutlineDocument.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyRTFDocument.nib
+s325734567.887036
+e325734567.997296
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyRTFDocument.nib
+lSLF07#2@54"StripNIB FindPanelTest/English.lproj/MyRTFDocument.nib325734567#325734567#0(0"0(0#0#89"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyRTFDocument.nib8613121632#346"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyRTFDocument.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyRTFDocument.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableColumnSheet.nib
+s325734567.600761
+e325734567.929264
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableColumnSheet.nib
+lSLF07#2@59"StripNIB FindPanelTest/English.lproj/MyTableColumnSheet.nib325734567#325734567#0(0"0(0#0#94"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableColumnSheet.nib8618776416#356"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTableColumnSheet.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableColumnSheet.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocument.nib
+s325734567.582153
+e325734567.929417
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocument.nib
+lSLF07#2@56"StripNIB FindPanelTest/English.lproj/MyTableDocument.nib325734567#325734567#0(0"0(0#0#91"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocument.nib8620497376#350"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTableDocument.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocument.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib
+s325734567.535011
+e325734567.886933
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib
+lSLF07#2@72"StripNIB FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib325734567#325734567#0(0"0(0#0#107"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib8611180896#382"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTableDocumentWithCocoaBinding.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTableDocumentWithCocoaBinding.nib0#
+
+CStripNIB /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTextDocument.nib
+s325734567.929510
+e325734568.037788
+r1
+xStripNIB
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTextDocument.nib
+lSLF07#2@55"StripNIB FindPanelTest/English.lproj/MyTextDocument.nib325734567#325734568#0(0"0(0#0#90"/Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTextDocument.nib8612958624#348"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /Developer/usr/bin/ibtool --strip /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app/Contents/Resources/English.lproj/MyTextDocument.nib --output-format human-readable-text /Users/koch/texshop2.41-64/3rdparty/OgreKit/FindPanelTest/English.lproj/MyTextDocument.nib0#
+
+CTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app
+s325734572.931658
+e325734572.935108
+r1
+xTouch
+x/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app
+lSLF07#2@85"Touch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app325734572#325734572#0(0"0(0#0#0"8622731232#153"    cd /Users/koch/texshop2.41-64/3rdparty/OgreKit    /usr/bin/touch -c /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Release/OgreFindPanelTest.app0#
+

@@ -1,0 +1,981 @@
+TOgreKit (without Find Panel)
+v7
+r1
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004CDDF45E00000000000000EE
+t1289614430
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CDDF46F00000000000000EE
+t1289614447
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB3D0000000000000C7E
+t1242688317
+s3198
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004CD606210000000002B48610
+t1289094689
+s45385232
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5B397F0000000000B3E980
+t1297824127
+s11790720
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/Documentation/License.txt
+c000000004B923187000000000000064D
+t1267872135
+s1613
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/Documentation/ReadMe.rtf
+c000000004B923177000000000000075C
+t1267872119
+s1884
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.h
+c0000000041DCE1BB0000000000000C27
+t1104994747
+s3111
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.m
+c0000000041DCE1BB0000000000000B72
+t1104994747
+s2930
+i<OgreKit/NSString_OgreKitAdditions.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGAttributedString.h
+c0000000041DCE1BA00000000000003DD
+t1104994746
+s989
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGAttributedString.m
+c0000000041DCE1BB0000000000001049
+t1104994747
+s4169
+i<AppKit/AppKit.h>
+i<OgreKit/OGAttributedString.h>
+i<OgreKit/OGMutableAttributedString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableAttributedString.h
+c0000000041DCE1BB000000000000029C
+t1104994747
+s668
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OGAttributedString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableAttributedString.m
+c0000000041DCE1BB0000000000003109
+t1104994747
+s12553
+i<OgreKit/OGMutableAttributedString.h>
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutablePlainString.h
+c0000000041DCE1BA00000000000001C0
+t1104994746
+s448
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OGPlainString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutablePlainString.m
+c0000000041DCE1BA0000000000000832
+t1104994746
+s2098
+i<OgreKit/OGMutablePlainString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableString.h
+c0000000041DCE1BA0000000000000472
+t1104994746
+s1138
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGPlainString.h
+c0000000041DCE1BA0000000000000393
+t1104994746
+s915
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGPlainString.m
+c0000000041DCE1BA0000000000000D87
+t1104994746
+s3463
+i<OgreKit/OGPlainString.h>
+i<OgreKit/OGMutablePlainString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.h
+c000000004B92877F0000000000005C43
+t1267894143
+s23619
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.m
+c000000004B922F6B000000000000EFF3
+t1267871595
+s61427
+i<OgreKit/oniguruma.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionEnumeratorPrivate.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OGString.h>
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OGPlainString.h>
+i<OgreKit/OGAttributedString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.h
+c0000000041DCE1B70000000000000BC3
+t1104994743
+s3011
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.m
+c0000000041DCE1B80000000000002017
+t1104994744
+s8215
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGRegularExpressionCapturePrivate.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapturePrivate.h
+c0000000041DCE1B800000000000002F8
+t1104994744
+s760
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapturePrivate.m
+c0000000041DCE1B800000000000003FC
+t1104994744
+s1020
+i<OgreKit/OGRegularExpressionCapturePrivate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.h
+c0000000041DCE1B600000000000004F6
+t1104994742
+s1270
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.m
+c000000004B92772F0000000000003CD4
+t1267889967
+s15572
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionEnumeratorPrivate.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumeratorPrivate.h
+c0000000042C7A003000000000000086E
+t1120378883
+s2158
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumeratorPrivate.m
+c000000004B926CAE0000000000000E88
+t1267887278
+s3720
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionEnumeratorPrivate.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.h
+c0000000041DCE1B90000000000000561
+t1104994745
+s1377
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.m
+c000000004B926C410000000000001A70
+t1267887169
+s6768
+i<OgreKit/OGRegularExpressionFormatter.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.h
+c0000000041DCE1B700000000000022DE
+t1104994743
+s8926
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.m
+c0000000041DCE1B7000000000000632B
+t1104994743
+s25387
+i<OgreKit/oniguruma.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionEnumeratorPrivate.h>
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGRegularExpressionCapturePrivate.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatchPrivate.h
+c0000000041DCE1B70000000000000307
+t1104994743
+s775
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatchPrivate.m
+c000000004B928471000000000000084B
+t1267893361
+s2123
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionEnumerator.h>
+i<OgreKit/OGRegularExpressionEnumeratorPrivate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionPrivate.h
+c0000000041DCE1B60000000000000895
+t1104994742
+s2197
+i<Foundation/Foundation.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionPrivate.m
+c000000004B926CEA0000000000001EF1
+t1267887338
+s7921
+i<OgreKit/oniguruma.h>
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGString.h>
+i<OgreKit/OGMutableString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.h
+c0000000041DCE1B80000000000000E00
+t1104994744
+s3584
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.m
+c000000004B926C520000000000004FAC
+t1267887186
+s20396
+i<OgreKit/OGRegularExpression.h>
+i<OgreKit/OGRegularExpressionPrivate.h>
+i<OgreKit/OGRegularExpressionMatch.h>
+i<OgreKit/OGRegularExpressionMatchPrivate.h>
+i<OgreKit/OGRegularExpressionCapture.h>
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OGReplaceExpressionPrivate.h>
+i<OgreKit/OGString.h>
+i<OgreKit/OGMutableString.h>
+i<OgreKit/OGPlainString.h>
+i<OgreKit/OGAttributedString.h>
+i<stdlib.h>
+i<limits.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpressionPrivate.h
+c0000000041DCE1B9000000000000029F
+t1104994745
+s671
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpressionPrivate.m
+c0000000041DCE1B9000000000000035D
+t1104994745
+s861
+i<OgreKit/OGReplaceExpression.h>
+i<OgreKit/OGReplaceExpressionPrivate.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.h
+c0000000041DCE1B9000000000000024B
+t1104994745
+s587
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.m
+c0000000041DCE1B900000000000001D1
+t1104994745
+s465
+i<OgreKit/OGString.h>
+i<OgreKit/OGPlainString.h>
+i<OgreKit/OGAttributedString.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OgreKitWithoutFindPanel/OgreKit.h
+c0000000041DCE1D1000000000000034D
+t1104994769
+s845
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OgreKit_Prefix.pch
+c0000000041DCE1D100000000000001F0
+t1104994769
+s496
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/COPYING
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/HISTORY
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/README
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/doc/API
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/doc/FAQ
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/doc/RE
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/intel/oniguruma.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/oniguruma/universal/libonig.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Headers
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/OgreKit
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Resources
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/NSString_OgreKitAdditions.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGMutableString.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpression.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionCapture.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionEnumerator.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionFormatter.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionMatch.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGReplaceExpression.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OGString.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/OgreKit.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Headers/oniguruma.h
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/OgreKit
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OgreKit/License.txt
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OgreKit/ReadMe.rtf
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/API
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/COPYING
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/FAQ
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/HISTORY
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/RE
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/README
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Info.plist
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/Current
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/NSString_OgreKitAdditions.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGAttributedString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGMutableAttributedString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGMutablePlainString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGPlainString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpression.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionCapture.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionCapturePrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionEnumerator.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionEnumeratorPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionFormatter.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionMatch.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionMatchPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGReplaceExpression.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGReplaceExpressionPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OgreKit
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OgreKit.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/NSString_OgreKitAdditions.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGAttributedString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGMutableAttributedString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGMutablePlainString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGPlainString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpression.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionCapture.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionCapturePrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionEnumerator.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionEnumeratorPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionFormatter.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionMatch.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionMatchPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGReplaceExpression.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGReplaceExpressionPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OgreKit
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OgreKit.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/NSString_OgreKitAdditions.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGAttributedString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGMutableAttributedString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGMutablePlainString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGPlainString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpression.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionCapture.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionCapturePrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionEnumerator.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionEnumeratorPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionFormatter.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionMatch.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionMatchPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGReplaceExpression.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGReplaceExpressionPrivate.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGString.o
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OgreKit
+t2
+s0
+
+N/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OgreKit.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreKit_Prefix-fdeausgpceumjbeyqxvlcnhfdqqh/OgreKit_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreKit_Prefix-gfhlqqfzxiunguakutlrdsvbbwwi/OgreKit_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreKit_Prefix-heetsaubgibudaaweerjmopdlnnd/OgreKit_Prefix.pch.gch
+t2
+s0
+
+NRegularExpression/OgreKit-Info.plist
+c000000004B920677000000000000028A
+t1267861111
+s650
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/NSString_OgreKitAdditions.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGAttributedString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGAttributedString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGMutableAttributedString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableAttributedString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGMutablePlainString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutablePlainString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGPlainString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGPlainString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpression.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionCapture.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionCapturePrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapturePrivate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionEnumerator.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionEnumeratorPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumeratorPrivate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionFormatter.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionMatch.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionMatchPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatchPrivate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGRegularExpressionPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionPrivate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGReplaceExpression.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGReplaceExpressionPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpressionPrivate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OGString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/NSString_OgreKitAdditions.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGAttributedString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGAttributedString.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGMutableAttributedString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableAttributedString.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGMutablePlainString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutablePlainString.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGPlainString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGPlainString.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpression.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionCapture.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionCapturePrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapturePrivate.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionEnumerator.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionEnumeratorPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumeratorPrivate.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionFormatter.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionMatch.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionMatchPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatchPrivate.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGRegularExpressionPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionPrivate.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGReplaceExpression.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGReplaceExpressionPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpressionPrivate.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OGString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.m normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/NSString_OgreKitAdditions.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/NSString_OgreKitAdditions.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGAttributedString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGAttributedString.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGMutableAttributedString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutableAttributedString.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGMutablePlainString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGMutablePlainString.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGPlainString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGPlainString.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpression.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpression.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionCapture.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapture.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionCapturePrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionCapturePrivate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionEnumerator.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumerator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionEnumeratorPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionEnumeratorPrivate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionFormatter.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionFormatter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionMatch.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatch.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionMatchPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionMatchPrivate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGRegularExpressionPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGRegularExpressionPrivate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGReplaceExpression.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpression.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGReplaceExpressionPrivate.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGReplaceExpressionPrivate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OGString.o" /Users/koch/texshop2.41-64/3rdparty/OgreKit/RegularExpression/OGString.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/NSString_OgreKitAdditions.h RegularExpression/NSString_OgreKitAdditions.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGMutableString.h RegularExpression/OGMutableString.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpression.h RegularExpression/OGRegularExpression.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionCapture.h RegularExpression/OGRegularExpressionCapture.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionEnumerator.h RegularExpression/OGRegularExpressionEnumerator.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionFormatter.h RegularExpression/OGRegularExpressionFormatter.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGRegularExpressionMatch.h RegularExpression/OGRegularExpressionMatch.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGReplaceExpression.h RegularExpression/OGReplaceExpression.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OGString.h RegularExpression/OGString.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/OgreKit.h RegularExpression/OgreKitWithoutFindPanel/OgreKit.h
+r0
+
+CCpHeader build/Debug/OgreKit.framework/Versions/A/Headers/oniguruma.h RegularExpression/oniguruma/intel/oniguruma.h
+r0
+
+CCreateUniversalBinary /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/OgreKit normal "x86_64 i386 ppc"
+r0
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/i386/OgreKit" normal i386
+r0
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/ppc/OgreKit" normal ppc
+r0
+
+CLd "/Users/koch/texshop2.41-64/3rdparty/OgreKit/build/OgreKit.build/Debug/OgreKit (without Find Panel).build/Objects-normal/x86_64/OgreKit" normal x86_64
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OgreKit/License.txt RegularExpression/Documentation/License.txt
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OgreKit/ReadMe.rtf RegularExpression/Documentation/ReadMe.rtf
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/API RegularExpression/oniguruma/intel/doc/API
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/COPYING RegularExpression/oniguruma/intel/COPYING
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/FAQ RegularExpression/oniguruma/intel/doc/FAQ
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/HISTORY RegularExpression/oniguruma/intel/HISTORY
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/RE RegularExpression/oniguruma/intel/doc/RE
+r0
+
+CPBXCp build/Debug/OgreKit.framework/Versions/A/Resources/Documentation/OniGuruma/README RegularExpression/oniguruma/intel/README
+r0
+
+CProcessInfoPlistFile /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/A/Resources/Info.plist RegularExpression/OgreKit-Info.plist
+r0
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreKit_Prefix-fdeausgpceumjbeyqxvlcnhfdqqh/OgreKit_Prefix.pch.gch RegularExpression/OgreKit_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreKit_Prefix-gfhlqqfzxiunguakutlrdsvbbwwi/OgreKit_Prefix.pch.gch RegularExpression/OgreKit_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH /var/folders/pf/pfm2+Mv7F7mAMcvZhT649E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OgreKit_Prefix-heetsaubgibudaaweerjmopdlnnd/OgreKit_Prefix.pch.gch RegularExpression/OgreKit_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CSymLink /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Headers Versions/Current/Headers
+r0
+
+CSymLink /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/OgreKit Versions/Current/OgreKit
+r0
+
+CSymLink /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Resources Versions/Current/Resources
+r0
+
+CSymLink /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework/Versions/Current A
+r0
+
+CTouch /Users/koch/texshop2.41-64/3rdparty/OgreKit/build/Debug/OgreKit.framework
+r0
+
