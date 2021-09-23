@@ -110,7 +110,9 @@
 
 	// document not found, open document and typeset
 	dc = [NSDocumentController sharedDocumentController];
-	obj = [dc openDocumentWithContentsOfURL:[NSURL fileURLWithPath: nameString] display:YES error:NULL];
+	//	obj = [dc openDocumentWithContentsOfURL:[NSURL fileURLWithPath: nameString] display:YES error:NULL];
+	obj = [[NSFileManager defaultManager] fileExistsAtPath:nameString] ? [dc openDocumentWithContentsOfURL:[NSURL fileURLWithPath: nameString] 
+                                                                        display:YES error:NULL] : nil; // modified by Terada
 	if (obj) {
 		if (obj == self)
 			return NO;
@@ -266,6 +268,8 @@
 	return [self checkRootFile:nameString forTask:task];
 }
 
+/* Removed by Ulrich Bauer patch
+
 - (void) checkFileLinksA
 {
 	NSArray *wlist;
@@ -355,6 +359,8 @@
 	// release file list
 	[slist release];
 }
+ 
+*/
 
 // added by John A. Nairn
 // read argument to \input command and resolve to full path name
